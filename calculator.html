@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teddy's Calculator</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<script type="text/javascript" src = "calc.js"></script>
+</head>
+<body>
+	<div class = "calc">
+		<input id = "screen" type="text" name="" value = "0" disabled="">
+	</div>
+	<table class = "buttons">
+		<tr>
+			<td><button class = "button" onclick="updateScreen('(')">(</button></td>
+			<td><button class = "button" onclick="updateScreen(')')">)</button></td>
+			<td><button class = "button" onclick="clearScreen()">AC</button></td>
+			<td><button class = "button" onclick = "backSpace()">CE</button></td>
+		</tr>
+		<tr>
+			<td><button class = "button" onclick="updateScreen('7')">7</button></td>
+			<td><button class = "button" onclick="updateScreen('8')">8</button></td>
+			<td><button class = "button" onclick="updateScreen('9')">9</button></td>
+			<td><button class = "button" onclick="updateScreen('/')">/</button></td>
+		</tr>
+		<tr>
+			<td><button class = "button" onclick="updateScreen('4')">4</button></td>
+			<td><button class = "button" onclick="updateScreen('5')">5</button></td>
+			<td><button class = "button" onclick="updateScreen('6')">6</button></td>
+			<td><button class = "button" onclick="updateScreen('*')">x</button></td>
+		</tr>
+		<tr>
+			<td><button class = "button" onclick="updateScreen('1')">1</button></td>
+			<td><button class = "button" onclick="updateScreen('2')">2</button></td>
+			<td><button class = "button" onclick="updateScreen('3')">3</button></td>
+			<td><button class = "button" onclick="updateScreen('-')">-</button></td>
+		</tr>
+		<tr>
+			<td><button class = "button" onclick="updateScreen('0')">0</button></td>
+			<td><button class = "button" onclick="updateScreen('.')">.</button></td>
+			<td><button class = "button" onclick="evalScreen()">=</button></td>
+			<td><button class = "button" onclick="updateScreen('+')">+</button></td>
+		</tr>
+	</table>
+</body>
+</html>
