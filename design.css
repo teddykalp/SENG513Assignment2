@@ -2,16 +2,18 @@
 	text-align: right;
 	font-size: 24px;
 	height: 50px;
-	background-color: white;
+	background-color: #DDDDDD;
 	width: 615px;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .button{
 	width: 150px;
 	height: 50px;
 	border-radius: 20px;
-	background-color: #89cff0;
+	background-color: #7FDBFF;
 	font-size: 20px;
+	font-family: 'Lemonada', cursive;
 }
 
 
@@ -20,6 +22,6 @@
 }
 
 .buttons {
-	background-color: grey;
+	background-color: #AAAAAA;
 }
 
