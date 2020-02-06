@@ -1,3 +1,6 @@
+body{
+	background-color: #001f3f;
+}
 #screen{
 	text-align: right;
 	font-size: 24px;
@@ -13,7 +16,7 @@
 	border-radius: 20px;
 	background-color: #7FDBFF;
 	font-size: 20px;
-	font-family: 'Lemonada', cursive;
+	font-family: 'Kelly Slab', cursive;
 }
 
 
@@ -25,7 +28,7 @@
 	background-color: #AAAAAA;
 }
 
-@media screen{
+@media {
 	body{
 		width: 80%;
 		height: auto;

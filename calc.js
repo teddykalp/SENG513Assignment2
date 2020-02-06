@@ -33,7 +33,7 @@ function evalScreen(){
 function backSpace(){
 	let screen = document.getElementById('screen');
 	let expression = screen.value;
-	if (expression.length === 1 || expression.includes("=")){
+	if (expression.length === 1 || expression.includes("=") || expression.includes("ERROR")){
 		screen.value = 0;
 	}
 	else{
