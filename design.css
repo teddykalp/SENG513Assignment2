@@ -30,5 +30,13 @@
 		width: 80%;
 		height:auto;
 	}
+
+	#screen{
+		width: 80%;
+	}
+
+	.button{
+		width: 20%;
+	}
 }
 
