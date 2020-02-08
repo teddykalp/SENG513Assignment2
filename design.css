@@ -28,7 +28,9 @@ body{
 	background-color: #AAAAAA;
 }
 
-@media (min-width: 600px) {
-
+@media (min-width: 300px) {
+	body {
+		background-color: green;
+	}
 }
 
