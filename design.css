@@ -28,7 +28,7 @@ body{
 	background-color: #AAAAAA;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 	body{
 		width: 100px;
 		background-color: green;
