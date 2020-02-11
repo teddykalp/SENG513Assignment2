@@ -28,9 +28,9 @@ body{
 	background-color: #AAAAAA;
 }
 
-@media (min-width: 300px) {
-	body {
-		background-color: green;
-	}
+@media screen and (min-width: 480px) and (orientation: landscape) {
+  body {
+    background-color: lightgreen;
+  }
 }
 
