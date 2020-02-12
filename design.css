@@ -1,17 +1,23 @@
 body{
-	background-color: #88B04B;
+	background-color:  #8FDBFF;
 }
+
+.app{
+	padding-top: 3%;
+	padding-left: 30%;
+}
+
 #screen{
 	text-align: right;
 	font-size: 24px;
 	height: 50px;
-	background-color: #DDDDDD;
-	width: 615px;
+	background-color: white;
+	width: 60%;
 	font-family: 'Press Start 2P', cursive;
 }
 
-.button{
-	width: 150px;
+.hvr-fade{
+	width: 100%;
 	height: 50px;
 	border-radius: 20px;
 	background-color: #7FDBFF;
@@ -26,6 +32,15 @@ body{
 
 .buttons {
 	background-color: #FF6F61;
+	width: 60.5%;
+}
+
+.header{
+	background-color: #FFDC00;
+	padding: 5px;
+	margin: -9px;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
 }
 
 @media screen and (min-width: 480px) and (orientation: landscape) {
@@ -44,7 +59,12 @@ body{
 
   .buttons{
   	width: 100%;
-  	height: 78vh;
+  	height: 65vh;
+  }
+
+  .app{
+  	padding-left: 0%;
+  	padding-top: 1%;
   }
 }
 

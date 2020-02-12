@@ -3,45 +3,51 @@
 <head>
 	<title>Teddy's Calculator</title>
 	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="stylesheet" type="text/css" href="hover.css">
 	<script type="text/javascript" src = "calc.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lemonada|Press+Start+2P&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class = "calc">
-		<input id = "screen" type="text" name="" value = "0" disabled="">
+	<div class = "header">
+		<h1>Calculator</h1>
 	</div>
-	<table class = "buttons">
-		<tr>
-			<td><button class = "button" onclick="updateScreen('(')">(</button></td>
-			<td><button class = "button" onclick="updateScreen(')')">)</button></td>
-			<td><button class = "button" onclick="clearScreen()">AC</button></td>
-			<td><button class = "button" onclick = "backSpace()">CE</button></td>
-		</tr>
-		<tr>
-			<td><button class = "button" onclick="updateScreen('7')">7</button></td>
-			<td><button class = "button" onclick="updateScreen('8')">8</button></td>
-			<td><button class = "button" onclick="updateScreen('9')">9</button></td>
-			<td><button class = "button" onclick="updateScreen('/')">/</button></td>
-		</tr>
-		<tr>
-			<td><button class = "button" onclick="updateScreen('4')">4</button></td>
-			<td><button class = "button" onclick="updateScreen('5')">5</button></td>
-			<td><button class = "button" onclick="updateScreen('6')">6</button></td>
-			<td><button class = "button" onclick="updateScreen('*')">x</button></td>
-		</tr>
-		<tr>
-			<td><button class = "button" onclick="updateScreen('1')">1</button></td>
-			<td><button class = "button" onclick="updateScreen('2')">2</button></td>
-			<td><button class = "button" onclick="updateScreen('3')">3</button></td>
-			<td><button class = "button" onclick="updateScreen('-')">-</button></td>
-		</tr>
-		<tr>
-			<td><button class = "button" onclick="updateScreen('0')">0</button></td>
-			<td><button class = "button" onclick="updateScreen('.')">.</button></td>
-			<td><button class = "button" onclick="evalScreen()">=</button></td>
-			<td><button class = "button" onclick="updateScreen('+')">+</button></td>
-		</tr>
-	</table>
+	<div class = "app">
+		<div class = "calc">
+			<input id = "screen" type="text" name="" value = "0" disabled="">
+		</div>
+		<table class = "buttons">
+			<tr>
+				<td><button class = "hvr-fade" onclick="updateScreen('(')">(</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen(')')">)</button></td>
+				<td><button class = "hvr-fade" onclick="clearScreen()">AC</button></td>
+				<td><button class = "hvr-fade" onclick = "backSpace()">CE</hvr-fade></td>
+			</tr>
+			<tr>
+				<td><button class = "hvr-fade" onclick="updateScreen('7')">7</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('8')">8</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('9')">9</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('/')">/</button></td>
+			</tr>
+			<tr>
+				<td><button class = "hvr-fade" onclick="updateScreen('4')">4</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('5')">5</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('6')">6</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('*')">x</button></td>
+			</tr>
+			<tr>
+				<td><button class = "hvr-fade" onclick="updateScreen('1')">1</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('2')">2</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('3')">3</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button class = "hvr-fade" onclick="updateScreen('0')">0</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('.')">.</button></td>
+				<td><button class = "hvr-fade" onclick="evalScreen()">=</button></td>
+				<td><button class = "hvr-fade" onclick="updateScreen('+')">+</button></td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
