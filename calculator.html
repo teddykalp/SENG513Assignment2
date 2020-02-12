@@ -4,6 +4,7 @@
 	<title>Teddy's Calculator</title>
 	<link rel="stylesheet" type="text/css" href="design.css">
 	<link rel="stylesheet" type="text/css" href="hover.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src = "calc.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lemonada|Press+Start+2P&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap" rel="stylesheet">
@@ -18,34 +19,34 @@
 		</div>
 		<table class = "buttons">
 			<tr>
-				<td><button class = "hvr-fade" onclick="updateScreen('(')">(</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen(')')">)</button></td>
-				<td><button class = "hvr-fade" onclick="clearScreen()">AC</button></td>
-				<td><button class = "hvr-fade" onclick = "backSpace()">CE</hvr-fade></td>
+				<td><button class = "hvr-fade">(</button></td>
+				<td><button class = "hvr-fade">)</button></td>
+				<td><button class = "hvr-fade"><b>AC</b></button></td>
+				<td><button class = "hvr-fade"><b>CE</b></hvr-fade></td>
 			</tr>
 			<tr>
-				<td><button class = "hvr-fade" onclick="updateScreen('7')">7</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('8')">8</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('9')">9</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('/')">/</button></td>
+				<td><button class = "hvr-fade">7</button></td>
+				<td><button class = "hvr-fade">8</button></td>
+				<td><button class = "hvr-fade">9</button></td>
+				<td><button class = "hvr-fade">/</button></td>
 			</tr>
 			<tr>
-				<td><button class = "hvr-fade" onclick="updateScreen('4')">4</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('5')">5</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('6')">6</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('*')">x</button></td>
+				<td><button class = "hvr-fade">4</button></td>
+				<td><button class = "hvr-fade">5</button></td>
+				<td><button class = "hvr-fade">6</button></td>
+				<td><button class = "hvr-fade">x</button></td>
 			</tr>
 			<tr>
-				<td><button class = "hvr-fade" onclick="updateScreen('1')">1</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('2')">2</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('3')">3</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('-')">-</button></td>
+				<td><button class = "hvr-fade">1</button></td>
+				<td><button class = "hvr-fade">2</button></td>
+				<td><button class = "hvr-fade">3</button></td>
+				<td><button class = "hvr-fade">-</button></td>
 			</tr>
 			<tr>
-				<td><button class = "hvr-fade" onclick="updateScreen('0')">0</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('.')">.</button></td>
-				<td><button class = "hvr-fade" onclick="evalScreen()">=</button></td>
-				<td><button class = "hvr-fade" onclick="updateScreen('+')">+</button></td>
+				<td><button class = "hvr-fade">0</button></td>
+				<td><button class = "hvr-fade">.</button></td>
+				<td><button class = "hvr-fade">=</button></td>
+				<td><button class = "hvr-fade">+</button></td>
 			</tr>
 		</table>
 	</div>
