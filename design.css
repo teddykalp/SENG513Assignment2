@@ -41,6 +41,7 @@ body{
 	margin: -9px;
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
+	width: 100%;
 }
 
 @media screen and (min-width: 480px) and (orientation: landscape) {
